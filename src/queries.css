@@ -1,0 +1,246 @@
+/***************************************
+********** 1390 px (smaller desktops)***************
+****************************************/
+
+@media (max-width: 87em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/***************************************
+********** 1200 px (landscape tablets)***************
+****************************************/
+@media (max-width: 75em) {
+  /* 9px/16px */
+  html {
+    font-size: 56.25%;
+  }
+  .heading-secondary {
+    font-family: 3.6rem;
+  }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.2rem;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+  .hero {
+    grid-template-columns: 53fr 47fr;
+  }
+
+  .main-nav-list {
+    gap: 3.6rem;
+  }
+  .testimonials-container {
+    padding: 9.6rem 4.8rem;
+  }
+  .pricing-plan {
+    width: 80%;
+  }
+}
+/***************************************
+********** 1000 px (small tablets)***************
+****************************************/
+@media (max-width: 62em) {
+  /* 8px/16px */
+  html {
+    font-size: 50%;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-img {
+    position: initial;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .hero-text-box {
+    text-align: center;
+  }
+  .delivered-meals {
+    justify-content: center;
+  }
+  .section-hero {
+    padding: 6.2rem 8rem 0 8rem;
+  }
+  .logos img {
+    height: 2.4rem;
+  }
+  .step-number {
+    font-size: 7.4rem;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .btn-form {
+    margin-top: 1.2rem;
+  }
+  .btn-mobile-nav {
+    display: block;
+    z-index: 15;
+  }
+
+  header nav {
+    display: none;
+  }
+  .icon-open {
+    display: block;
+  }
+  .display-open {
+    display: block;
+  }
+  .display-close {
+    display: none;
+    transition: all 1s;
+  }
+
+  header nav {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 0.5s ease-out;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  header .nav-open {
+    opacity: 1;
+    visibility: visible;
+
+    pointer-events: auto;
+    transform: none;
+    transition: all 1s;
+  }
+  .nav-open .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem !important;
+  }
+}
+/***************************************
+********** 870 px ( tablets)***************
+****************************************/
+
+@media (max-width: 55em) {
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .diets {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+  .pricing-plan {
+    width: 100%;
+  }
+  .grid--5-cols {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .footer-nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.6rem;
+  }
+  .footer-logo-col,
+  .footer-adress-col {
+    grid-column: span 3;
+  }
+}
+/***************************************
+********** 600 px ( tablets)***************
+****************************************/
+
+@media (max-width: 38em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+  .section-hero {
+    padding: 4.8rem 3.2rem 0 3.2rem;
+  }
+  .logos img {
+    height: 1.2rem;
+  }
+  .btn {
+    margin-bottom: 2.6rem;
+    padding: 0.8rem 2.4rem;
+  }
+  .hero-img {
+    position: initial;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .delivered-faces img {
+    height: 3.6rem;
+    width: 3.6rem;
+  }
+  .delivered-meals {
+    margin-top: 6.4rem;
+  }
+  .hero-text-box {
+    margin-bottom: 6.4rem;
+  }
+  .img-box:nth-child(3) {
+    grid-row: 4;
+  }
+  .img-box {
+    transform: translateY(-2.4rem);
+  }
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
+  .cta-box {
+    grid-template-columns: 1fr;
+  }
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+}
