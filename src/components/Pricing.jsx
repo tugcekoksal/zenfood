@@ -79,7 +79,7 @@ function Pricing() {
             </li>
           </ul>
           <div className="plan-sign-up">
-            <a href="#" className="btn btn-full margin-right">
+            <a href="javascript:void(0)" className="btn btn-full margin-right">
               Start eating well
             </a>
           </div>

@@ -30,14 +30,14 @@ function Hero() {
             customers!
           </p>
           <a
-            href="#"
+            href="javascript:void(0)"
             onClick={(e) => scrollToSection(e, "cta")}
             className="btn btn-full margin-right"
           >
             Start eating well
           </a>
           <a
-            href="#"
+            href="javascript:void(0)"
             onClick={(e) => scrollToSection(e, "how")}
             className="btn btn-outline"
           >

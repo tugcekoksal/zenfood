@@ -75,14 +75,14 @@ function Header() {
   };
   return (
     <header className={!isInterSecting ? "header sticky" : "header "}>
-      <a href="#">
+      <a href="javascript:void(0)">
         <img className="logo" src={logo} alt="zenfood logo" />
       </a>
       <nav ref={navRef}>
         <ul className="main-nav-list  ">
           <li>
             <a
-              href="#"
+              href="javascript:void(0)"
               onClick={(e) => scrollToSection(e, "how")}
               className="main-nav-link"
             >
@@ -91,7 +91,7 @@ function Header() {
           </li>
           <li>
             <a
-              href="#m"
+              href="javascript:void(0)"
               onClick={(e) => scrollToSection(e, "meals")}
               className="main-nav-link"
             >
@@ -100,7 +100,7 @@ function Header() {
           </li>
           <li>
             <a
-              href="#"
+              href="javascript:void(0)"
               onClick={(e) => scrollToSection(e, "test")}
               className="main-nav-link"
             >
@@ -109,7 +109,7 @@ function Header() {
           </li>
           <li>
             <a
-              href="#"
+              href="javascript:void(0)"
               onClick={(e) => scrollToSection(e, "pricing")}
               className="main-nav-link"
             >
@@ -118,7 +118,7 @@ function Header() {
           </li>
           <li>
             <a
-              href="#"
+              href="javascript:void(0)"
               onClick={(e) => scrollToSection(e, "cta")}
               className="main-nav-link nav-last"
             >
