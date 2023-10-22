@@ -20,17 +20,17 @@ function Footer() {
 
           <ul className="footer-icons">
             <li>
-              <a className="footer-link" href="javascript:void(0)">
+              <a className="footer-link" href="/#">
                 <PiFacebookLogoDuotone className="footer-icon" />
               </a>
             </li>
             <li>
-              <a className="footer-link" href="javascript:void(0)">
+              <a className="footer-link" href="/#">
                 <PiInstagramLogo className="fooer-icon" />
               </a>
             </li>
             <li>
-              <a className="footer-link" href="javascript:void(0)">
+              <a className="footer-link" href="/#">
                 <PiTwitterLogoDuotone className="footer-icon" />
               </a>
             </li>
@@ -46,11 +46,11 @@ function Footer() {
             <p className="adress">
               623 Harrison St., 2nd Floor, San Francisco, CA 94107
             </p>
-            <a className="footer-link" href="javascript:void(0)">
+            <a className="footer-link" href="/#">
               415-201-6370
             </a>
             <br />
-            <a className="footer-link" href="javascript:void(0)">
+            <a className="footer-link" href="/#">
               hello@zenfood.com
             </a>
           </address>
@@ -59,22 +59,22 @@ function Footer() {
           <p className="footer-title">Account</p>
           <ul className="nav-list">
             <li className="nav-el">
-              <a className="footer-link" href="javascript:void(0)">
+              <a className="footer-link" href="/#">
                 Create account
               </a>
             </li>
             <li className="nav-el">
-              <a className="footer-link" href="javascript:void(0)">
+              <a className="footer-link" href="/#">
                 Sign in
               </a>
             </li>
             <li className="nav-el">
-              <a className="footer-link" href="javascript:void(0)">
+              <a className="footer-link" href="/#">
                 IOS app
               </a>
             </li>
             <li className="nav-el">
-              <a className="footer-link" href="javascript:void(0)">
+              <a className="footer-link" href="/#">
                 Android app
               </a>
             </li>
@@ -84,22 +84,22 @@ function Footer() {
           <p className="footer-title">Account</p>
           <ul className="nav-list">
             <li className="nav-el">
-              <a className="footer-link" href="javascript:void(0)">
+              <a className="footer-link" href="/#">
                 About Zenfood
               </a>
             </li>
             <li className="nav-el">
-              <a className="footer-link" href="javascript:void(0)">
+              <a className="footer-link" href="/#">
                 For Business
               </a>
             </li>
             <li className="nav-el">
-              <a className="footer-link" href="javascript:void(0)">
+              <a className="footer-link" href="/#">
                 Cooking partners
               </a>
             </li>
             <li className="nav-el">
-              <a className="footer-link" href="javascript:void(0)">
+              <a className="footer-link" href="/#">
                 Careers
               </a>
             </li>
@@ -109,18 +109,18 @@ function Footer() {
           <p className="footer-title">Account</p>
           <ul className="nav-list">
             <li className="nav-el">
-              <a className="footer-link" href="javascript:void(0)">
+              <a className="footer-link" href="/#">
                 Recipe directory
               </a>
             </li>
             <li className="nav-el">
-              <a className="footer-link" href="javascript:void(0)">
+              <a className="footer-link" href="/#">
                 Help center
               </a>
             </li>
 
             <li className="nav-el">
-              <a className="footer-link" href="javascript:void(0)">
+              <a className="footer-link" href="/#">
                 Privacy & terms
               </a>
             </li>

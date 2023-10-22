@@ -82,7 +82,7 @@ function Header() {
         <ul className="main-nav-list  ">
           <li>
             <a
-              href="javascript:void(0)"
+              href="#"
               onClick={(e) => scrollToSection(e, "how")}
               className="main-nav-link"
             >

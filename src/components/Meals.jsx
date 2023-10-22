@@ -120,7 +120,7 @@ function Meals() {
         </div>
       </div>
       <div className="container all-recipes">
-        <a href="javascript:void(0)" className="link">
+        <a href="#" className="link">
           See all recipes &rarr;
         </a>
       </div>
