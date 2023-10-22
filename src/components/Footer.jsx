@@ -9,7 +9,8 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container grid grid--5-cols">
-        <div className="footer-logo">
+        <div className="footer-logo-col">
+          <a href="javascript:void(0)" className="footer-logo">
             <img
               src={require("../img/zenfood-logo.png")}
               alt="footer logo"
@@ -19,7 +20,7 @@ function Footer() {
 
           <ul className="footer-icons">
             <li>
-              <a className="footer-link" >
+              <a className="footer-link" href="javascript:void(0)">
                 <PiFacebookLogoDuotone className="footer-icon" />
               </a>
             </li>

@@ -91,7 +91,7 @@ function Header() {
           </li>
           <li>
             <a
-              href="javascript:void(0)"
+              href="#"
               onClick={(e) => scrollToSection(e, "meals")}
               className="main-nav-link"
             >
@@ -100,7 +100,7 @@ function Header() {
           </li>
           <li>
             <a
-              href="javascript:void(0)"
+              href="#"
               onClick={(e) => scrollToSection(e, "test")}
               className="main-nav-link"
             >
@@ -109,7 +109,7 @@ function Header() {
           </li>
           <li>
             <a
-              href="javascript:void(0)"
+              href="#"
               onClick={(e) => scrollToSection(e, "pricing")}
               className="main-nav-link"
             >
@@ -118,7 +118,7 @@ function Header() {
           </li>
           <li>
             <a
-              href="javascript:void(0)"
+              href="#"
               onClick={(e) => scrollToSection(e, "cta")}
               className="main-nav-link nav-last"
             >
